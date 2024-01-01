@@ -157,19 +157,19 @@ footer {
   }
 }
 /* animations */
-@keyframes islide-in {
-  to {
+@keyframes slide-in {
+  from {
     left: 0;
   }
-  from {
+  to {
     left: 50;
   }
 }
-@keyframes islide-back {
-  to {
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-  from {
+  to {
     left: 0;
   }
 }

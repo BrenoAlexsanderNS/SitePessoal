@@ -158,18 +158,18 @@ footer {
 }
 /* animations */
 @keyframes islide-in {
-  from {
+  to {
     left: 0;
   }
-  to {
+  from {
     left: 50;
   }
 }
 @keyframes islide-back {
-  from {
+  to {
     left: 50%;
   }
-  to {
+  from {
     left: 0;
   }
 }
